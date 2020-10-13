@@ -5,7 +5,7 @@ function createArray(){
     do{
         let charElement = prompt("Nhap ki tu");
         charArr.push(charElement);
-        if(charElement.length > 1){
+        if(charElement.length > 1 || charElement == ""){
             alert("Nhap 'KI TU'");
             count--;
             charArr.pop(charElement);

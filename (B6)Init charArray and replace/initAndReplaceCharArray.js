@@ -6,7 +6,7 @@ function initCharArray() {
     do {
         let charElement = prompt("Nhap ki tu");
         charArr.push(charElement);
-        if (charElement.length > 1) {
+        if (charElement.length > 1 || charElement.length == "") {
             alert("Nhap 'KI TU'");
             count--;
             charArr.pop(charElement);

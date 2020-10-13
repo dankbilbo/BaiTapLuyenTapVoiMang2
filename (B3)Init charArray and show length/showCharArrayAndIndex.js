@@ -4,9 +4,6 @@ function createArray(){
     let count = 0;
     do{
         let charElement = prompt("Nhap ki tu");
-        // if(charElement == " "){
-        //     charElement =
-        // }
         charArr.push(charElement);
         if(charElement.length > 1 || charElement == ""){
             alert("Nhap 'KI TU'");
